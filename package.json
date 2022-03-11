@@ -1,0 +1,39 @@
+{
+  "name": "ca-workflow-mariano-franco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianoFranco/CA-Workflow-Mariano-Franco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianoFranco/CA-Workflow-Mariano-Franco/issues"
+  },
+  "homepage": "https://github.com/MarianoFranco/CA-Workflow-Mariano-Franco#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "graphql": "^16.3.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
