@@ -1,8 +1,15 @@
 import { createProduct } from "./helpers/objectHelpers";
-import {IProduct} from "./helpers/interface/objectProduct"
+import {Product} from "./interfaces/ObjectProduct";
 
-const newProduct: IProduct = createProduct(12, "d f g", "This is the title of the product, it will be truncated");
 
-console.log(newProduct);
+const newProduct: Product = createProduct({
+    id: 1234,
+    code: "password",
+    title: "Mariano David Franco",
+  });
+
+
+console.log(newProduct)
+
 
 

@@ -1,0 +1,1 @@
+export const BASE_URL = "https://graphql-pokeapi.graphcdn.app/";
